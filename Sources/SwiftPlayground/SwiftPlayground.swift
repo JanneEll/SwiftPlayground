@@ -2,7 +2,7 @@
 // https://docs.swift.org/swift-book
 
 @main
-struct SwiftPlayground {
+struct SwiftPlayground4{
     static func main() {
         let x = 10
         let y = 5
