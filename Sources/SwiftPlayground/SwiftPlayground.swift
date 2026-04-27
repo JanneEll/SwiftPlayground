@@ -10,7 +10,7 @@ struct SwiftPlayground {
         let added = x + y
         let subtracted = x - y
 
-        print("\(y) % \(x) = \(x")
+        print("\(y) % \(x) = \(x)")
 
     
     }
