@@ -4,8 +4,10 @@
 @main     
 struct SwiftPlayground {
     static func main() {
-        //playground does not work anymore, so I added this to wait till it is fixed
-        print("swift works again")
+        //reminder: only have one file with "main"
+        print("What is your name")
+        let name = readLine()
+        print("Your name is (name))
     }
 
 }
