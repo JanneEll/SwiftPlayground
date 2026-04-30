@@ -6,8 +6,8 @@ struct SwiftPlayground {
     static func main() {
         //reminder: only have one file with "main"
         print("What is your name")
-        let name = readLine()
-        print("Your name is (name))
+        let name = readLine()!
+        print(name)
     }
 
 }
