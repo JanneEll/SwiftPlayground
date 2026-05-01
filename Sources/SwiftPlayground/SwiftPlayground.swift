@@ -5,9 +5,11 @@
 struct SwiftPlayground {
     static func main() {
         //reminder: only have one file with "main"
-        print("What is your name")
-        let name = readLine()!
-        print(name)
+        print("ENter your name")
+        let userInput = readLine()!
+        let age = Int(userInput)!
+        let isOldEnough = age >= 18
+        print(isOldEnough) 
     }
 
 }
