@@ -5,11 +5,13 @@
 struct SwiftPlayground {
     static func main() {
         //reminder: only have one file with "main"
-        print("Enter your name")
+        print("Enter your age")
         let userInput = readLine()!
+        print("Enter your password")
+        let password = readLine()
         let age = Int(userInput)!
-        let isOldEnough = age >= 18
-        print(isOldEnough) 
+        let approved = age >= 18 && password == "hello"
+        print("He can come in:",approved) 
         
     }
 
