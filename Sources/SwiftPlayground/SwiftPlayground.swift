@@ -16,6 +16,8 @@ struct SwiftPlayground {
         print("b divided by two is zero and a divided by 2 is not 0:", conditionThree)
         let conditionFour = (c % 2) != 0 || c > 50
         print("c divided by 2 is not 0 and c is lager than 50:", conditionFour)
+        let x = conditionOne && conditionTWO && conditionThree && conditionTWO
+        print("Everything is True:", x)
     }
 
 }
