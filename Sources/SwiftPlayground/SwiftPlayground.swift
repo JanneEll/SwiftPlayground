@@ -5,14 +5,17 @@
 struct SwiftPlayground {
     static func main() {
         //reminder: only have one file with "main"
-        print("Enter your age")
-        let userInput = readLine()!
-        print("Enter your password")
-        let password = readLine()
-        let age = Int(userInput)!
-        let approved = age >= 18 && password == "hello"
-        print("He can come in:",approved) 
-        
+        let a = 6
+        let b = 7
+        let c = a + b
+        let conditionOne = c > b
+        print("C is bigger than B:", conditionOne)
+        let conditionTWO = a < b && a > 20
+        print("a is smaller than b and larger than 20:", conditionTWO)
+        let conditionThree = (b % 2) == 0 || (a % 2) != 0
+        print("b divided by two is zero and a divided by 2 is not 0:", conditionThree)
+        let conditionFour = (c % 2) != 0 || c > 50
+        print("c divided by 2 is not 0 and c is lager than 50:", conditionFour)
     }
 
 }
