@@ -33,7 +33,7 @@ struct SwiftPlayground {
             print("Grade: D")
         } else if userScore >= 0{
             print("Grade: Failed")
-        
-
-
-}}}
+        } else {
+            print("this number is to low how tf did u score that")
+        }
+}}
