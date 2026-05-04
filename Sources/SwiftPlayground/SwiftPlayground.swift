@@ -7,10 +7,10 @@ struct SwiftPlayground {
         //reminder: only have one file with "main"
         print("Enter your score")
         let userScore = Int(readLine()!)!
-        if userScore == 50 {
+        if userScore >= 50 {
             print("your passed the test")
         } else {
-            print("your failed hahahahaah")
+            print("Try again in the future")
         }
 
 }}
