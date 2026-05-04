@@ -7,6 +7,8 @@ struct SwiftPlayground {
         //reminder: only have one file with "main"
         print("Enter your score")
         let userScore = Int(readLine()!)!
+
+        //check all scores
         if userScore >= 101 {
             print("that number is to high")
         } else if userScore >= 90{
