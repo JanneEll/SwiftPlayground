@@ -5,10 +5,12 @@
 struct SwiftPlayground {
     static func main() {
         //reminder: only have one file with "main"
+
+        //enter score
         print("Enter your score")
         let userScore = Int(readLine()!)!
 
-        //check all scores
+        //check which grade that is
         if userScore >= 101 {
             print("that number is to high")
         } else if userScore >= 90{
