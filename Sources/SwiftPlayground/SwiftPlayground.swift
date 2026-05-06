@@ -13,11 +13,11 @@ struct SwiftPlayground {
 
         //asking for the data
         print("What is your Age?")
-        var age = Int(readLine()!)!
+        let age = Int(readLine()!)!
         print("Do you want the", ticketTypes[0], "or", ticketTypes[1], "or")
         print(ticketTypes[2], "?")
         print("Enter 1 2 or 3 deepending on which you want.")
-        var ticket = Int(readLine()!)!
+        let ticket = Int(readLine()!)!
 
         //calculating the price
         if ticket > 0 && ticket < 4 {
