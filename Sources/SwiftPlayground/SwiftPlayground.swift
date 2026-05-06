@@ -7,6 +7,6 @@ struct SwiftPlayground {
         //reminder: only have one file with "main"
 
        //empty arrys
-        var adultFares [int] = []
-        var childFares [int] = []
+        var adultFares : [Int] = []
+        var childFares : [Int] = []
 }}
