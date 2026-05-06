@@ -5,6 +5,7 @@
 struct SwiftPlayground {
     static func main() {
         //reminder: only have one file with "main"
+        //checking if the user got a result yet
         var printed = 0
 
         // arrys
@@ -32,8 +33,10 @@ struct SwiftPlayground {
                 
             }
         }
+        //everything correct?
         if printed == 0{
-        func main()
+        print("something went wrong try again")
+        main()
         
         }
 
