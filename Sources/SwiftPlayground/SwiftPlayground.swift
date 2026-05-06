@@ -23,9 +23,9 @@ struct SwiftPlayground {
 
         //calculating the price
         if Age > 18 {
-            print("your ticket costs", ticketTypes[Ticket - 1])
-            
-            
+            print("your ticket costs", adultFares[Ticket - 1])    
+        } else {
+            print("your ticket costs", childFares[Ticket - 1])
         }
 
 }}
