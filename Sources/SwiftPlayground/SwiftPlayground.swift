@@ -4,7 +4,7 @@
 @main
 struct SwiftPlayground {
     static func main() {
-        //reminder: only have one file with "main"
+        //"main" is a function so i can repeat it if something went wrong
         //checking if the user got a result yet
         var printed = 0
 
