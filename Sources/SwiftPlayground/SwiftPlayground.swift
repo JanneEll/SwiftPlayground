@@ -22,6 +22,8 @@ struct SwiftPlayground {
 
 
         //calculating the price
-        if Age > 18
+        if Age > 18 {
+            
+        }
 
 }}
