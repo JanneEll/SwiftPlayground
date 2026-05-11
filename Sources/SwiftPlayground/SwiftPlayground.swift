@@ -25,7 +25,7 @@ struct SwiftPlayground {
             }
             print("do you want to add anothe person type ")
             print("u otherwise type q")
-            input = (readLine()!)
+            input = readLine()!.lowercased()
             if input == "Q"{
                 exit = 0}
 
