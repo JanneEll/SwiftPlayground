@@ -13,6 +13,7 @@ struct SwiftPlayground {
         let Fares: [Int] = [8, 12, 10]
         let AgeGroups: [Int] = [18, 80]
         var input = "x"
+        let end = "q"
  
         //asking for the data
         while input != "q"{
