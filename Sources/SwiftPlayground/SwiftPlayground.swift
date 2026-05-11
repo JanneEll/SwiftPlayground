@@ -21,7 +21,7 @@ struct SwiftPlayground {
             var age = Int(readLine()!)!
             print("do you want to add anothe person type ")
             print("u otherwise type q")
-            var input = readLine()
+            input = (readLine()!)
 
 
 
