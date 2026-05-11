@@ -6,39 +6,31 @@ struct SwiftPlayground {
     static func main() {
         //"main" is a function so i can repeat it if something went wrong
         //checking if the user got a result yet
-        var printed = 0
+        
 
         // arrys
-        let adultFares: [Int] = [400, 600, 750]
-        let childFares: [Int] = [800, 1200, 1500]
-        let ticketTypes: [String] = ["24-Hour", "48-Hour", "72-Hour"]
-
+        //                kid, adult, eldery
+        let Fares: [Int] = [8, 12, 10]
+        let AgeGroups: [Int] = [18, 80]
+        var input = "x"
+ 
         //asking for the data
-        
-        print("What is your Age?")
-        let age = Int(readLine()!)!
-        print("Do you want the", ticketTypes[0], "or", ticketTypes[1], "or")
-        print(ticketTypes[2], "?")
-        print("Enter 1 2 or 3 deepending on which you want.")
-        let ticket = Int(readLine()!)!
+        while input != "q"{
+            print("What is the age of the next user")
+            var age = Int(readLine()!)!
+            print("do you want to add anothe person type ")
+            print("u otherwise type q")
+            var input = readLine()
 
-        //calculating the price
-        if ticket > 0 && ticket < 4 {
-            if age > 18 {
-                print("your ticket costs", adultFares[ticket - 1])
-                printed = 1
-            } else {
-                print("your ticket costs", childFares[ticket - 1])
-                printed = 1
-                
-            }
+
+
+
         }
+        
+        
         //everything correct?
-        if printed == 0{
-        print("something went wrong try again")
-        main()
         
         }
 
     }
-}
+
