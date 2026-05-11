@@ -13,15 +13,17 @@ struct SwiftPlayground {
         let Fares: [Int] = [8, 12, 10]
         let AgeGroups: [Int] = [18, 80]
         var input = "x"
-        let end = "q"
+        var exit = 1
  
         //asking for the data
-        while input != "q"{
+        while exit == 1{
             print("What is the age of the next user")
             var age = Int(readLine()!)!
             print("do you want to add anothe person type ")
             print("u otherwise type q")
             input = (readLine()!)
+            if input == "q"{
+                exit = 0}
 
 
 
