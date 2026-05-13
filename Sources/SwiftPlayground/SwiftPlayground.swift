@@ -12,11 +12,11 @@ struct SwiftPlayground {
         print("WHo do you want to add")
         var name = readLine()
         if name != "no name"{
-            invited.append(name)
+            invited.append(at)
         } else {
             print("Who do you want ro remove,", invited)
             name = readLine()
-            var length = String(invited.enumerated())
+            var length = invited.count
             var x = 0
             let xInString = String(x)
             while length != x{
