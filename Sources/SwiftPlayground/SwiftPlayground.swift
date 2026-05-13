@@ -16,8 +16,9 @@ struct SwiftPlayground {
         } else {
             print("Who do you want ro remove,", invited)
             name = readLine()
-            var length = invited.enumerated()
+            var length = String(invited.enumerated())
             var x = 0
+            let xInString = String(x)
             while length != x{
                 if invited[x] == name{
                     invited.remove(at: x)
