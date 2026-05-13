@@ -10,18 +10,20 @@ struct SwiftPlayground {
     var firstRound = 0
     while adding == 1{
         print("WHo do you want to add")
-        var name = readLine()
+        var name = String(readLine()!)
+        
         if name != "no name"{
-            invited.append(at)
+            invited.append(name)
         } else {
             print("Who do you want ro remove,", invited)
-            name = readLine()
+            name = String(readLine()!)
             var length = invited.count
             var x = 0
             let xInString = String(x)
             while length != x{
                 if invited[x] == name{
                     invited.remove(at: x)
+                    x = x +  1 
 
                 }
 
