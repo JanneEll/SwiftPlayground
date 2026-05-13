@@ -13,6 +13,12 @@ struct SwiftPlayground {
         var name = readLine()
         if name != "no name"{
             invited.append(name)
+        } else {
+            print("Who do you want ro remove,", invited)
+            name = readLine()
+            while x =
+
+        
         }
         
 
