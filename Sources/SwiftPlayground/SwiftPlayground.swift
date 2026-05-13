@@ -12,9 +12,15 @@ struct SwiftPlayground {
         print("WHo do you want to add")
         var name = String(readLine()!)
         
+        
         if name != "no name"{
-            invited.append(name)
-        } else {
+            if firstRound == 0{
+                var invited = [name]
+                firstRound = 67
+            } else {
+                invited.append(name)}
+
+        }else {
             print("Who do you want ro remove,", invited)
             name = String(readLine()!)
             var length = invited.count
