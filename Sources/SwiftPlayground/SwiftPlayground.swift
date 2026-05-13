@@ -20,7 +20,7 @@ struct SwiftPlayground {
             var x = 0
             while length != x{
                 if invited[x] == name{
-                    invited.remove()
+                    invited.remove(at: x)
 
                 }
 
@@ -42,5 +42,5 @@ struct SwiftPlayground {
         
         }
 
-    }
+    
 
