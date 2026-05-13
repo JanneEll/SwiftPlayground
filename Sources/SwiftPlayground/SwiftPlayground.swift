@@ -13,23 +13,10 @@ struct SwiftPlayground {
         var name = String(readLine()!)
         
         
-        if name != "no name"{
-            if firstRound == 0{
-                var invited = [name]
-                firstRound = 67
-            } else {
-                invited.append(name)}
-
-        }else {
-            print("Who do you want ro remove,", invited)
-            name = String(readLine()!)
-            var length = invited.count
-            var x = 0
+     
+         
             let xInString = String(x)
-            while length != x{
-                if invited[x] == name{
-                    invited.remove(at: x)
-                    x = x +  1 
+            
 
                 }
 
