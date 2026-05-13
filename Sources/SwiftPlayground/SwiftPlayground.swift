@@ -6,7 +6,13 @@ struct SwiftPlayground {
     static func main() {
         //"main" is a function so i can repeat it if something went wrong
     var invited = ["x"]
-    while 
+    var adding = 1
+    var firstRound = 0
+    while adding == 1
+        print("WHo do you want to add")
+        if 
+        invited.append
+    }
 
 
 
