@@ -10,7 +10,11 @@ struct SwiftPlayground {
     var firstRound = 0
     while adding == 1{
         print("WHo do you want to add")
-        var name = readLine.lowercased()
+        var name = readLine()
+        if name != "no name"{
+            invited.append(name)
+        }
+        
 
     }
 
