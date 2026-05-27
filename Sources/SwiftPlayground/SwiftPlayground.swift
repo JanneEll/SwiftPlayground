@@ -12,7 +12,7 @@ struct swiftPLayground {
 //printing the price
 print("Price per item:", price)
 //printing the quantitiy
-print("Quantity:", amount)
+print("Quantity: $", amount)
 
 //printing the subtotal
 print("Subtotal: $\(price * amount)")
@@ -20,5 +20,4 @@ print("Subtotal: $\(price * amount)")
 print("Tax (15%): $\(price * amount * tax)")
 //calcing the total price
 print("Total: $\(amount * price * (1 + tax))")
-
-    }}
+}}
