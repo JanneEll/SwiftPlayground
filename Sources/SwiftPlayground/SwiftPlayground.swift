@@ -6,18 +6,12 @@ struct swiftPLayground {
 
     static func main() {
         //numbers
-    let price: Double = 19.99
-    let amount: Double = 3
-    let tax: Double = 0.15
-//printing the price
-print("Price per item:", price)
-//printing the quantitiy
-print("Quantity: $", amount)
+    let length: Double = 12.5
+    let width: Double =  8.0
 
-//printing the subtotal
-print("Subtotal: $\(price * amount)")
-//calculating the taxRate
-print("Tax (15%): $\(price * amount * tax)")
-//calcing the total price
-print("Total: $\(amount * price * (1 + tax))")
+
+print("The length of the rectangle is \(length) units.")
+print("The width of the rectangle is \(width) units.")
+print("The area of the rectangle is \(length * width) square units.")
+print("The perimeter of the rectangle is \(2 * (length + width)) units.")
 }}
