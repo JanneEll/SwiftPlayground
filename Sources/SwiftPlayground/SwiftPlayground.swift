@@ -1,42 +1,28 @@
 // The Swift Programming Language
-// https://docs.swift.org/swift-book
+// https://docs.swift.org/swift-bo
 
 @main
-struct SwiftPlayground {
-    static func main() {
-        //"main" is a function so i can repeat it if something went wrong
-    var invited = ["x"]
-    let zz = 1
-    var firstRound = 0
-    while zz == 1{
-        print("WHo do you want to add")
-        var name = String(readLine()!)
-        
-        
-     
-         
-            let xInString = String(x)
-            
-
-                }
-
-            }
-
-        
-        }
-        
-
-    }
+struct swiftPLayground {
+  static func main() {
+  
 
 
+var age: Int? = nil
 
-
-        }
-        
-        
-        //everything correct?
-        
-        }
-
+while age == nil {
+    print("Enter your age:")
     
+    if let input = readLine(), let enteredAge = Int(input) {
+        if enteredAge < 0 {
+            print("Age cannot be negative. Enter a valid age.")
+        } else if enteredAge < 18 {
+            print("You must be 18 or older. Enter a valid age.")
+        } else {
+            age = enteredAge
+        }
+    } else {
+        print("Invalid input. Enter a valid integer for age.")
+    }}
 
+
+print("Valid age entered: \(age!)")}}
