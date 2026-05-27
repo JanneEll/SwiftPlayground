@@ -9,8 +9,9 @@ struct swiftPLayground {
     let length: Double = 12.5
     let width: Double =  8.0
 
-
+//print the length
 print("The length of the rectangle is \(length) units.")
+//print the width
 print("The width of the rectangle is \(width) units.")
 print("The area of the rectangle is \(length * width) square units.")
 print("The perimeter of the rectangle is \(2 * (length + width)) units.")
