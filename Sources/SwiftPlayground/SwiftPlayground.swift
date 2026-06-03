@@ -15,13 +15,13 @@ let rightHandSide = Int(readLine()!)!
 print("Type add or subtract: ")
 let calculationType = readLine()!
 
-
+//func add runs it prints out the 2 numbers added up
 func add() {
     let answer = leftHandSide + rightHandSide
     print(answer)
 }
 
-
+//func add runs, it prints out the 2 numbers added up
 func subtract() {
     let answer = leftHandSide - rightHandSide
     print(answer)
