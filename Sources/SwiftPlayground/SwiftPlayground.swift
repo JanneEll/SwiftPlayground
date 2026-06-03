@@ -5,7 +5,15 @@ import Foundation
 struct swiftPLayground {
 
     static func main() {
-        func 
+        func timescquare() {
+        print("north")
+        print("east")
+        print("west")
+        print("south")
+
+}
+@timescquare()
+
         
     
 
