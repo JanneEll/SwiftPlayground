@@ -12,7 +12,7 @@ struct swiftPLayground {
         print("south")
 
 }
-@timescquare()
+timescquare()
 
         
     
