@@ -5,14 +5,24 @@ import Foundation
 struct swiftPLayground {
 
     static func main() {
+        //config the data of the user
         let weigth = 80
         let height = 190
+
+
+
+        //function to find the BMI
         func function2Swift() {
+            //calculation bmi
+            let BMI = weigth / (height + weigth)
+            //printing out the bmi
+            print(BMI)
 
         }
 
-
+//startng the fuction
 function2Swift()
+
         
     
 
