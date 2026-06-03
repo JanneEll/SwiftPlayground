@@ -5,15 +5,14 @@ import Foundation
 struct swiftPLayground {
 
     static func main() {
-        func timescquare() {
-        print("north")
-        print("east")
-        print("west")
-        print("south")
+        let weigth = 80
+        let height = 190
+        func function2Swift() {
 
-}
-timescquare()
+        }
 
+
+function2Swift()
         
     
 
