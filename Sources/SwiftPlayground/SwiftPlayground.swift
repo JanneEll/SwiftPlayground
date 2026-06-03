@@ -5,16 +5,17 @@ import Foundation
 struct swiftPLayground {
 
     static func main() {
-        //numbers
-    let length: Double = 12.5
-    let width: Double =  8.0
+        //config the birthyear
+        let birthyear: Double = 2008
+        //set the curent year
+        let currentyear: Double = 2025
+        //find the age
+        let age: Double  = currentyear-birthyear
 
-//print the length
-print("The length of the rectangle is \(length) units.")
-//print the width
-print("The width of the rectangle is \(width) units.")
+        //print out the age
+        print("You are",age,"years old.")
 
-print("The area of the rectangle is \(length * width) square units.")
-/the
-print("The perimeter of the rectangle is \(2 * (length + width)) units.")
+        
+    
+
 }}
