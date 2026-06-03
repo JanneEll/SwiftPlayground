@@ -6,25 +6,30 @@ struct swiftPLayground {
 
     static func main() {
 
-        //progamm to find the BMI
+        print("Enter the first number (left-hand side): ")
+let leftHandSide = Int(readLine()!)!
+print("Enter the second number (right-hand side): ")
+let rightHandSide = Int(readLine()!)!
 
 
-        //config the data of the user
-        let weigth = 80
-        let height = 190
+print("Type add or subtract: ")
+let calculationType = readLine()!
 
-        //function to find the BMI
-        func function2Swift() {
-            //calculation bmi
-            let BMI = weigth / (height + weigth)
-            //printing out the bmi
-            print(BMI)
 
-    
-//startng the fuction
-function2Swift()
+func add() {
+    let answer = leftHandSide + rightHandSide
+    print(answer)
+}
 
-        
-    
 
-}}
+func subtract() {
+    let answer = leftHandSide - rightHandSide
+    print(answer)
+}
+
+
+if calculationType == "add"{
+    add()
+} else if calculationType == "subtract"{
+    subtract()
+}}}
