@@ -32,5 +32,7 @@ struct swiftPLayground {
             }
             
         }
-        while programmRun == true
+        while programmRun == true{
+            
+        }
 }}
