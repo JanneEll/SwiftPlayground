@@ -5,31 +5,32 @@ import Foundation
 struct swiftPLayground {
 
     static func main() {
+        //variabels
+        var programmRun = true
+        var seenABird = false 
 
-        print("Enter the first number (left-hand side): ")
-let leftHandSide = Int(readLine()!)!
-print("Enter the second number (right-hand side): ")
-let rightHandSide = Int(readLine()!)!
-
-
-print("Type add or subtract: ")
-let calculationType = readLine()!
-
-//func add runs it prints out the 2 numbers added up
-func add() {
-    let answer = leftHandSide + rightHandSide
-    print(answer)
-}
-
-//func add runs, it prints out the 2 numbers added up
-func subtract() {
-    let answer = leftHandSide - rightHandSide
-    print(answer)
-}
+        //this check if the user is active and wants to start, also it creats the var "userInput" so it doesnt have to be sorted in which postion a user input will be needed first to difine
+        print("type anything to start")
+        var userInput = readLine()!
 
 
-if calculationType == "add"{
-    add()
-} else if calculationType == "subtract"{
-    subtract()
-}}}
+        //lists
+        let birdList: [String] = [1: Tieke,2: Kākā,3: Takahē,4: Hihi,5: Kiwi,6: Pāteke,7: Tūī,8: Kererū]
+
+        //functions
+        //even tho the funtcions dont have to be functions it works better because the programm is easyer to read/fix
+
+
+        //after the user said he saw a bird this function starts
+        func addBird() {
+            print("What kind of bird have you seen:", birdList)
+            print("Type in the number of the bird")
+            userInput = readLine()!
+            //1 and 8 r the maximum number that were possible to type in(so the inbetween can is always a possible bird to chosse)
+            if userInput => 1 && userInput =< 8{
+                newBird = userInput
+            }
+            
+        }
+        while programmRun == true
+}}
