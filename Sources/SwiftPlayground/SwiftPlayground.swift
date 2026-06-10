@@ -33,6 +33,6 @@ struct swiftPLayground {
             
         }
         while programmRun == true{
-
+        addBird()
         }
 }}
