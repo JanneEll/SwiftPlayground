@@ -27,12 +27,12 @@ struct swiftPLayground {
             print("Type in the number of the bird")
             userInput = readLine()!
             //1 and 8 r the maximum number that were possible to type in(so the inbetween can is always a possible bird to chosse)
-            if userInput => 1 && userInput =< 8{
-                newBird = userInput
+            if userInput > 1 && userInput < 8{
+                var newBird = userInput
             }
             
         }
         while programmRun == true{
-            
+
         }
 }}
