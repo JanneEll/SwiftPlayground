@@ -18,13 +18,13 @@ struct SwiftPlayground {
         }
         while run == true{
             print("DO YOU WANT TO ORDER FOOD; 1 OR DRINK, 2")
-            var userInput = readLine!()
-            if userInput == 1{
+            var String Double = readLine()!
+            if userInput == 1 {
                 print("Here r the food options")
 
             }
-            if userINput == 2{
-                print("Here r the drink options")
+            if userInput == 2{
+                print("Here r the drink options")}}
 
             }
         }
