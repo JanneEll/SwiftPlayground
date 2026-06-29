@@ -12,8 +12,7 @@ struct SwiftPlayground {
     //global variabels or lists
     let daysInAWeek = ["Monday", "Tuesday", "Wednesday", "Thursday","Fryday", "Saturday", "Sunday"]
     let Apps = ["Facebook", "SnapChat", "Instagram", "Discord","Other",]
-    var hoursPerDay = [1, 2, 3, 4, 5, 6, 7] 
-
+    var hoursPerDay = [1, 2, 3, 4, 5, 6, 7]
     let falseInputMessage = "Invalid input pleas try again"
 
 
@@ -22,6 +21,17 @@ struct SwiftPlayground {
      /////////////////////////////
     ////////////functions//////////
     /// /////////////////////////
+    
+    //get a valid input(number)
+    
+
+    //ask for the max amount of hours per day
+
+    //ask for the time spend on a specifiy app
+
+    //ask for the time spent on all apps in a day
+
+    //calculate all the days toghter
     
 
 
@@ -46,7 +56,7 @@ func readNumberInRange(min: Int, max: Int) -> Int {
 
 // Hauptprogramm
 let zahl = readNumberInRange(min: 1, max: 5)
-print("✅ Du hast die Zahl \(zahl) eingegeben.")
+print()
 
 
 
@@ -64,4 +74,4 @@ print("✅ Du hast die Zahl \(zahl) eingegeben.")
     print("Welcome to Screen-Time-Tracker")
     print("What is the hour limit set for each day?")
     
-    }}
+    }
