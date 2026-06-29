@@ -24,7 +24,7 @@ struct SwiftPlayground {
     /// /////////////////////////
     
 
-    import Foundation
+
 
 // Funktion zum sicheren Einlesen einer Zahl zwischen 1 und 5
 func readNumberInRange(min: Int, max: Int) -> Int {
@@ -36,10 +36,10 @@ func readNumberInRange(min: Int, max: Int) -> Int {
             if (min...max).contains(number) { 
                 return number
             } else {
-                print("❌ Zahl muss zwischen \(min) und \(max) liegen.")
+                print("Number is out of range")
             }
         } else {
-            print("❌ Ungültige Eingabe. Bitte eine ganze Zahl eingeben.")
+            print()
         }
     }
 }
