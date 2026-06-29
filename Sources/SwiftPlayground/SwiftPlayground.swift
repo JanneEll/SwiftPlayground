@@ -32,9 +32,6 @@ func readDouble() {
     // readLine() gibt String? zurück
     guard let input = readLine(), !input.isEmpty else {
         print(falseInputMessage)
-        
-    } 
-    
     // Versuch, in Double umzuwandeln
     if let value = Double(input) {
     } else {
