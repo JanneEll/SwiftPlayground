@@ -23,7 +23,17 @@ struct SwiftPlayground {
     /// /////////////////////////
     
     //get a valid input(number)
-    
+if let input = readLine() {
+    // Versuch, den String in eine Ganzzahl umzuwandeln
+    if let number = Int(input) {
+        print("Sie haben die Zahl \(number) eingegeben.")
+    } else {
+        print("Ungültige Eingabe. Bitte eine ganze Zahl eingeben.")
+    }
+} else {
+    print("Keine Eingabe erkannt.")
+}
+
 
     //ask for the max amount of hours per day
 
