@@ -24,10 +24,8 @@ struct SwiftPlayground {
     
     //get a valid input(number)
 
-    var input = readLine()
-    
+
 if let input = readLine() {
-    // Versuch, den String in eine Ganzzahl umzuwandeln
     if let number = Int(input) {
         print("Sie haben die Zahl \(number) eingegeben.")
     } else {
