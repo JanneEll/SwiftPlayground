@@ -7,24 +7,59 @@ import Foundation
 @main
 struct SwiftPlayground {
     static func main() {
-        // Prints welcome message.
-        print("Welcome user")
+    
+
+    //global variabels or lists
+    let daysInAWeek = ["Monday", "Tuesday", "Wednesday", "Thursday","Fryday", "Saturday", "Sunday"]
+    let Apps = ["Facebook", "SnapChat", "Instagram", "Discord","Other",]
+    var hoursPerDay = [1, 2, 3, 4, 5, 6, 7] 
+
+    let falseInputMessage = "Invalid input pleas try again"
 
 
 
 
-        //function
-        func selectFoodOrDrink(){
-        }
-        while run == true{
-            print("DO YOU WANT TO ORDER FOOD; 1 OR DRINK, 2")
-            var String Double = readLine()!
-            if userInput == 1 {
-                print("Here r the food options")
+     /////////////////////////////
+    ////////////functions//////////
+    /// /////////////////////////
+    
 
-            }
-            if userInput == 2{
-                print("Here r the drink options")}}
+    //finding a valid number
+    // Funktion zum sicheren Einlesen eines Double-Werts
+func readDouble() {
+    
+    
+    // readLine() gibt String? zurück
+    guard let input = readLine(), !input.isEmpty else {
+        print("⚠️ Keine Eingabe erkannt.")
+        
+    }
+    
+    // Versuch, in Double umzuwandeln
+    if let value = Double(input) {
+    } else {
+        print("⚠️ Ungültige Zahleneingabe.")
+        
+    }
+}
 
-            }
-        }
+// Beispielverwendung
+if let number = readDouble("Bitte eine Kommazahl eingeben:") {
+    print("✅ Du hast \(number) eingegeben.")
+} else {
+    print("❌ Keine gültige Zahl erhalten.")
+}
+
+    //this function helpt to define the daily hour Limit of the user
+    
+
+    
+    //////////////////////////
+    ////////main body////////
+    /////////////////////////
+    
+    //great the user
+    print("Welcome to Screen-Time-Tracker")
+    print("What is the hour limit set for each day?")
+    
+    }}
