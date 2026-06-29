@@ -31,24 +31,19 @@ func readDouble() {
     
     // readLine() gibt String? zurück
     guard let input = readLine(), !input.isEmpty else {
-        print("⚠️ Keine Eingabe erkannt.")
+        print(falseInputMessage)
         
-    }
+    } 
     
     // Versuch, in Double umzuwandeln
     if let value = Double(input) {
     } else {
-        print("⚠️ Ungültige Zahleneingabe.")
+        print(falseInputMessage)
         
     }
 }
 
-// Beispielverwendung
-if let number = readDouble("Bitte eine Kommazahl eingeben:") {
-    print("✅ Du hast \(number) eingegeben.")
-} else {
-    print("❌ Keine gültige Zahl erhalten.")
-}
+
 
     //this function helpt to define the daily hour Limit of the user
     
