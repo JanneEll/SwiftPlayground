@@ -24,21 +24,31 @@ struct SwiftPlayground {
     /// /////////////////////////
     
 
-    //finding a valid number
-    // Funktion zum sicheren Einlesen eines Double-Werts
-func readDouble() {
-    
-    
-    // readLine() gibt String? zurück
-    guard let input = readLine(), !input.isEmpty else {
-        print(falseInputMessage)
-    // Versuch, in Double umzuwandeln
-    if let value = Double(input) {
-    } else {
-        print(falseInputMessage)
-        
+    import Foundation
+
+// Funktion zum sicheren Einlesen einer Zahl zwischen 1 und 5
+func readNumberInRange(min: Int, max: Int) -> Int {
+        // Eingabe lesen
+        if let input = readLine(),
+        let number = Int(input) {
+
+            // Bereich prüfen
+            if (min...max).contains(number) { 
+                return number
+            } else {
+                print("❌ Zahl muss zwischen \(min) und \(max) liegen.")
+            }
+        } else {
+            print("❌ Ungültige Eingabe. Bitte eine ganze Zahl eingeben.")
+        }
     }
 }
+
+// Hauptprogramm
+let zahl = readNumberInRange(min: 1, max: 5)
+print("✅ Du hast die Zahl \(zahl) eingegeben.")
+
+
 
 
 
